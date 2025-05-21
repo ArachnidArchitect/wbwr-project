@@ -1,0 +1,107 @@
+@import 'tailwindcss';
+
+@layer utilities {
+  .font-plak-regular {
+    font-family: "Neue Plak", sans-serif;
+    font-weight: 400;
+  }
+  .font-plak-semibold {
+    font-family: "Neue Plak", sans-serif;
+    font-weight: 600;
+  }
+  .font-plak-bold {
+    font-family: "Neue Plak", sans-serif;
+    font-weight: 800;
+  }
+  .font-plak-condensed {
+    font-family: "Neue Plak Condensed", sans-serif;
+    font-weight: 900;
+  }
+}
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+section{
+  width: 100dvw;
+}
+
+h1 {
+  font-size: 105px;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 2px;
+  font-size: 1em;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+}
+
+
+@font-face {
+  font-family: 'Neue Plak Regular';
+  src: url('/assets/Fonts/Neue-Plak-Regular.otf') format('truetype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Neue Plak SemiBold';
+  src: url('/assets/Fonts/Neue-Plak-SemiBold.otf') format('truetype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Neue Plak Bold';
+  src: url('/assets/Fonts/Neue-Plak-Bold.ttf') format('truetype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Neue Plak Condensed';
+  src: url('/assets/Fonts/Neue-Plak-CondBlack.ttf') format('truetype');
+  font-style: normal;
+}
