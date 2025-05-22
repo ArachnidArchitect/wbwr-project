@@ -42,17 +42,35 @@ const OurPromotions: React.FC = () => {
       </div>
 
       {/* Gallery Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mx-auto place-items-center">
-        {PromotionsCat.map((category, index) => (
-          <div key={index} className="flex flex-col items-start">
-            <div
-              className="w-60 h-60 bg-contain "
-              style={{ backgroundImage: `url(${category.image})` }}
-            >
+<div
+  className="
+    grid
+    grid-flow-col
+    auto-cols-[minmax(150px,420px)]
+    gap-6
+    overflow-x-auto
+    snap-x snap-mandatory
+    scrollbar-hide
+    mx-auto
+  "
+>
+  {PromotionsCat.map((category, index) => (
+    <div
+      key={index}
+      className="snap-start flex flex-col items-start w-full"
+    >
+      <div
+        className="
+          w-full
+          aspect-[1/1]
+          bg-contain bg-no-repeat bg-center
+        "
+        style={{ backgroundImage: `url(${category.image})` }}
+      />
             </div>
-          </div>
         ))}
       </div>
+
     </section>
   );
 };
