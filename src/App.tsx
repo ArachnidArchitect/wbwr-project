@@ -2,6 +2,7 @@ import { useState } from 'react';
 import VideoBackground from "./components/VideoBackground";
 import CardGallery from "./components/GalleryComp"
 import ProjectRock from './components/ProjectRock';
+import PromotionsComp from './components/PromotionsComp.tsx';
 
 function App() {
 
@@ -22,7 +23,7 @@ function App() {
       {/* Project Rock card goes here */}
     </section>
     <section id='promotions' className='padding'>
-
+      <PromotionsComp/>
     </section>
     <section id='socials' className='padding'>
 

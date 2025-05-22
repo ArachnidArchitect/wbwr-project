@@ -22,7 +22,7 @@ const VideoBackground: React.FC = () => {
             CHECK OUT OUR LATEST GEAR
             </h1>
             <p className="font-plak-regular text-xs py-6">Advanced tech, superior comfort and all performance is what our latest UA gear is all about. Built to go further, push hard and break your boundaries.</p>
-            <button className="font-plak-regular bg-black text-white w-full px-[2em] py-[1em]">Shop UA New Arrivals</button>
+            <button className="font-plak-regular bg-black text-white w-full px-[2em] py-[1em] first-button">Shop UA New Arrivals</button>
 
         </div>
         

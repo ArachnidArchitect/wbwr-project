@@ -8,7 +8,7 @@ const ProjectRock: React.FC = () => {
             <h2 className="text-white font-plak-condensed text-[64px] leading-none">EVERY SIDE OF STRONG</h2>
             <p className="text-white font-plak-regular text-[14px]">The Underground collection is inspired by the idea of a Project Rock fight club. A place where we push each other harder to make each other stronger. A drop dedicated to you and your crew. The neon colourways are a reflection of the energy we bring to every rep, every set and every challenge.  </p>
 
-            <button className=" text-white font-plak-regular border-solid border-1 border-light-blue-500 p-3 ">Shop Project Rock</button>
+            <button className=" text-white font-plak-regular border-solid border-1 border-light-blue-500 p-3 second-button">Shop Project Rock</button>
 
             </div>
         </div>

@@ -60,7 +60,7 @@ h1 {
   line-height: .8em;
 }
 
-button {
+.first-button {
   border-radius: 2px;
   font-size: 1em;
   font-family: inherit;
@@ -78,6 +78,8 @@ button:focus-visible {
   width: 75%;
   display: flex;
   margin:0 auto;
+  margin-top: 60px;
+  
 }
 
 #project-rock-comp{

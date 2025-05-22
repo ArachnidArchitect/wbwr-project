@@ -50,7 +50,7 @@ const BestGearGallery: React.FC = () => {
               style={{ backgroundImage: `url(${category.image})` }}
             >
             </div>
-            <button className="mt-2 text-sm text-black hover:underline">Shop Now</button>
+            <button className="mt-2 text-sm text-black hover:underline second-button">Shop Now</button>
           </div>
         ))}
       </div>
