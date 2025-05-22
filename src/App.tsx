@@ -13,16 +13,16 @@ function App() {
     </section>
 
 
-    <section id='feature'>
+    <section id='feature'className='padding'>
       <CardGallery/>
     </section>
-    <section id='about'>
+    <section id='about' className='padding'>
+      {/* about card goes here */}
+    </section>
+    <section id='promotions' className='padding'>
 
     </section>
-    <section id='promotions'>
-
-    </section>
-    <section id='socials'>
+    <section id='socials' className='padding'>
 
     </section>
     </>
