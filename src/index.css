@@ -84,11 +84,11 @@ button:focus-visible {
 } */
 
 #project-rock-comp{
-  background-image: url("./assets/Desktop%20Assets/UA_Theme_2_DT.jpg");
+  background-image: url("/assets/Desktop%20Assets/UA_Theme_2_DT.jpg");
 
 }
 #project-rock-comp-mobile{
-  background-image: url("./assets/Mobile%20Assets/UA_Theme_2_MB.jpg");
+  background-image: url("/assets/Mobile%20Assets/UA_Theme_2_MB.jpg");
 
 }
 
