@@ -18,7 +18,7 @@ const MobileHero: React.FC = () => {
 
       {/* Overlayed content */}
     </div>
-       <div className="h-[75dvh] flex flex-col justify-evenly p-4 mobile-hero-content">
+       <div className="h-[75dvh] flex flex-col justify-evenly  mobile-hero-content gallery-content-mobile">
         <h1  className="text-black text-black font-plak-condensed leading-[1.1]"
             style={{
               fontSize: "clamp(4em, 2vw, 48px)", // 105px at 1920px = 5.47vw

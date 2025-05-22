@@ -8,7 +8,7 @@ const ProjectRock: React.FC = () => {
             {/* image for mobile on the background in styles */}
         </div>
 
-         <div className="flex flex-col w-full h-[75dvh] justify-around p-4">
+         <div className="flex flex-col w-full h-[75dvh] justify-around gallery-content-mobile">
             <h3 className="text-black font-plak-bold text-16px" style={{
               fontSize: "clamp(.875em, 1vw, 16px)"
             }}
