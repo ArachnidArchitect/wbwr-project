@@ -80,6 +80,14 @@ button:focus-visible {
   margin:0 auto;
 }
 
+#project-rock-comp{
+  background-image: url("./assets/Desktop%20Assets/UA_Theme_2_DT.jpg");
+  
+
+}
+
+
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

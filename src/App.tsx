@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import VideoBackground from "./components/VideoBackground";
 import CardGallery from "./components/GalleryComp"
+import ProjectRock from './components/ProjectRock';
 
 function App() {
 
@@ -16,8 +17,9 @@ function App() {
     <section id='feature'className='padding'>
       <CardGallery/>
     </section>
-    <section id='about' className='padding'>
-      {/* about card goes here */}
+    <section id='project-rock' className='padding'>
+      <ProjectRock/>
+      {/* Project Rock card goes here */}
     </section>
     <section id='promotions' className='padding'>
 

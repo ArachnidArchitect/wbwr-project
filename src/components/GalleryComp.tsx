@@ -34,7 +34,7 @@ const gearCategories: GearCategory[] = [
 
 const BestGearGallery: React.FC = () => {
   return (
-    <section className="w-full px-6 py-12 mx-auto">
+    <section className="w-full py-12 mx-auto">
       {/* Heading */}
       <div className="mb-8">
         <h2 className="text-2xl font-semibold text-black">Our best gear</h2>
@@ -42,11 +42,11 @@ const BestGearGallery: React.FC = () => {
       </div>
 
       {/* Gallery Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mx-auto place-items-center">
         {gearCategories.map((category, index) => (
           <div key={index} className="flex flex-col items-start">
             <div
-              className="w-60 h-60 bg-contain bg-center"
+              className="w-60 h-60 bg-contain "
               style={{ backgroundImage: `url(${category.image})` }}
             >
             </div>
