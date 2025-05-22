@@ -88,7 +88,9 @@ button:focus-visible {
 }
 
 
-
+.mobile-hero-content>*{
+ margin-bottom: 20px;
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -101,6 +103,12 @@ button:focus-visible {
 @media only screen and (max-width: 1024px) {
   .padding{
      padding:  0 5% 0 5%;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .padding{
+     padding:  0;
+     margin-top: 40px;
   }
 }
 

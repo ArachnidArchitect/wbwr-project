@@ -4,14 +4,21 @@ import CardGallery from "./components/GalleryComp"
 import ProjectRock from './components/ProjectRock';
 import PromotionsComp from './components/PromotionsComp.tsx';
 import SocialsComp from './components/SocialsComp.tsx'
+import MobileHero from './components/MobileHero.tsx';
 
 function App() {
 
 
   return (
     <>
-    <section id='hero'>
+    <section id='hero' className='hidden md:block'>
         <VideoBackground />
+      {/* call to action component goes here */}
+    </section>
+
+    {/* conditional renfering for mobile version */}
+    <section id='mobile-hero' className='block md:hidden'>
+        <MobileHero/>
       {/* call to action component goes here */}
     </section>
 
