@@ -69,13 +69,15 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-.padding{
+.padding, #project-rock, #project-rock-mobile{
   width: 100%;
   padding:  0 15% 0 15%;
-  display: flex;
   margin:0 auto;
   margin-top: 60px;
   
+}
+.padding{
+  display: flex;
 }
 /* .mygrid-galleries{
   grid-template-columns: 220px 220px 220px 220px;
@@ -83,12 +85,17 @@ button:focus-visible {
 
 #project-rock-comp{
   background-image: url("./assets/Desktop%20Assets/UA_Theme_2_DT.jpg");
-  
+
+}
+#project-rock-comp-mobile{
+  background-image: url("./assets/Mobile%20Assets/UA_Theme_2_MB.jpg");
 
 }
 
 
-
+.mobile-hero-content>*{
+ margin-bottom: 20px;
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -99,8 +106,20 @@ button:focus-visible {
   }
 }
 @media only screen and (max-width: 1024px) {
-  .padding{
+  .padding,#project-rock, #project-rock-mobile{
      padding:  0 5% 0 5%;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .padding,#project-rock, #project-rock-mobile{
+     padding:  0;
+     margin-top: 40px;
+  }
+  section{
+    padding: 0;
+  }
+  .gallery-content-mobile{
+    padding: 1em 1em 1em 0;
   }
 }
 
