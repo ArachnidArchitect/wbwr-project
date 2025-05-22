@@ -3,6 +3,7 @@ import VideoBackground from "./components/VideoBackground";
 import CardGallery from "./components/GalleryComp"
 import ProjectRock from './components/ProjectRock';
 import PromotionsComp from './components/PromotionsComp.tsx';
+import SocialsComp from './components/SocialsComp.tsx'
 
 function App() {
 
@@ -26,7 +27,7 @@ function App() {
       <PromotionsComp/>
     </section>
     <section id='socials' className='padding'>
-
+      <SocialsComp/>
     </section>
     </>
   )
